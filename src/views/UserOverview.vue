@@ -25,14 +25,13 @@ import { Component } from 'vue-property-decorator';
 export default class UserOverview extends Vue {
   data() {
     return {
-      itemsPerPage: 4,
       items: [
         {
-          name: 'Oskar Pałowicz',
+          name: 'Oskar Tyniec',
           Rating: 123,
-          Klub: 'yeehawclub',
-          email:'oskarciespaluje@gmail.com',
-          telefon:'123456789',
+          Klub: 'PolishChessClub',
+          email:'oskartyniec123@gmail.com',
+          telefon:592138942,
 
         },
       ],

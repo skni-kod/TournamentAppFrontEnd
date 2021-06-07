@@ -32,7 +32,7 @@
                   {{ item.info }}
                 </v-col>
                 <v-col cols="auto" class="my-auto" v-if="itemtab.tab === 'Turnieje'">
-                  <v-btn 
+                  <v-btn href="/tournamentInfo"
                     >Więcej o Turnieju</v-btn
                   >
                 </v-col>
